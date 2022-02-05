@@ -4,5 +4,8 @@
     "airbnb",
     "plugin:jest/recommended",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+  }
 }
